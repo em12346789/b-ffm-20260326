@@ -1,11 +1,5 @@
 name: Test Full Build
-on:
-  pull_request:
-    branches:
-      - master
-    paths-ignore:
-      - '**.md'
-      - 'LICENSE'
+on: workflow_dispatch
 
 env:
   DOCKER_BUILDKIT: 1
